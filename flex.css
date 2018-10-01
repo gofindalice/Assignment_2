@@ -1,0 +1,52 @@
+
+.flex{
+	display: flex;
+	width: 100%;
+	margin: 20px 20px 0px 20px;
+}
+
+.black, .lightseagreen, .blue, .pink, .orange {
+	width: 500px;
+	height: 700px;
+}
+
+.space-around{
+	justify-content: space-around;
+}
+
+.center{
+	justify-content: center;
+}
+
+.black{
+	background-color: black;
+}
+
+.lightseagreen{
+	background-color: #20B2AA;
+}
+
+.blue{
+	background-color: #4682B4;
+}
+
+.pink{
+	background-color: pink;
+}
+
+.orange{
+	background-color: orange;
+}
+
+.center-words{
+	color: white;
+	text-align: center;
+	vertical-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 35px;
+}
+
+.image-small {
+	flex-basis: 20%;
+}
+
