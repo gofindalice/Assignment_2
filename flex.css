@@ -5,6 +5,13 @@
 	margin: 20px 20px 0px 20px;
 }
 
+
+.flex-vertical{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 .black, .lightseagreen, .blue, .pink, .orange {
 	width: 500px;
 	height: 700px;
@@ -38,15 +45,48 @@
 	background-color: orange;
 }
 
-.center-words{
-	color: white;
+.title{
 	text-align: center;
-	vertical-align: center;
-	font-family: Impact, Charcoal, sans-serif;
 	font-size: 35px;
 }
 
-.image-small {
-	flex-basis: 20%;
+.impact {
+	font-family: Impact, sans-serif;
+	font-style: bold;
 }
 
+.helvetica {
+	font-family: Helvetica, serif;
+}
+
+.arial{
+	font-family: arial, serif;
+}
+
+
+.main-text-center{
+	padding: 2px;
+	font-size: 15px;
+	text-align: center;
+	margin: 8px 5px 8px 5px;
+}
+
+.silver {
+	color: silver
+}
+
+.white {
+	color: white;
+}
+
+.yellow {
+	color: yellow
+}
+
+.image-small {
+	flex-basis: 10%;
+}
+
+.image-container{
+	width: 20%;
+}
