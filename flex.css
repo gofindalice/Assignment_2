@@ -13,12 +13,16 @@
 }
 
 .black, .lightseagreen, .blue, .pink, .orange {
-	width: 500px;
-	height: 700px;
+	width: 30%;
+	height: 650px;
 }
 
 .space-around{
 	justify-content: space-around;
+}
+
+.space-between{
+	justify-content: space-between;
 }
 
 .center{
@@ -50,6 +54,16 @@
 	font-size: 35px;
 }
 
+.title-30{
+	text-align: center;
+	font-size: 30px;
+}
+
+.title-right{
+	text-align: right;
+	font-size: 35px;
+	text-decoration: bold;
+}
 .impact {
 	font-family: Impact, sans-serif;
 	font-style: bold;
@@ -59,10 +73,17 @@
 	font-family: Helvetica, serif;
 }
 
+.georgia {
+	font-family: georgia, serif;
+}
+}
 .arial{
 	font-family: arial, serif;
 }
 
+.century{
+	font-family: century-gothic, sans-serif;
+}
 
 .main-text-center{
 	padding: 2px;
@@ -71,8 +92,26 @@
 	margin: 8px 5px 8px 5px;
 }
 
+.main-text-left{
+	padding: 2px;
+	font-size: 18px;
+	text-align: left;
+	margin: 8px 5px 8px 5px;
+}
+
+.main-text-right{
+	padding: 2px;
+	font-size: 20px;
+	text-align: right;
+	margin: 8px 5px 8px 5px;
+}
+
 .silver {
-	color: silver
+	color: #F0F8FF;
+}
+
+.hotpink {
+	color: #FF1493;
 }
 
 .white {
@@ -83,10 +122,81 @@
 	color: yellow
 }
 
-.image-small {
-	flex-basis: 10%;
+.blacktext{
+	color: black
+}
+
+.cyan{
+	color: #E0FFFF;
 }
 
 .image-container{
-	width: 20%;
+	padding: 10px;
 }
+
+.image-container-ghost{
+	padding: 10px;
+	height: 330px;
+}
+
+.image-container-gif{
+	padding: 10px;
+	height: 300px;
+}
+
+.image-container-orange{
+	padding: 20px;
+	height: 250px;
+}
+
+.image-container-blue{
+	padding: 20px;
+	height: 300px;
+}
+
+.pics{
+	width: 100%;
+	object-fit: cover;
+	height: 100%;
+}
+
+.spacing{
+	line-height: 25px;
+}
+
+ .cyan-border {
+    border-color: #E0FFFF;
+    border-width: 10px;
+    border-style: solid;
+    padding: 2px
+}
+
+ .silver-border {
+    border-color: #F0F8FF;
+    border-width: 4px;
+    border-style: solid;
+    padding: 20px
+}
+
+.hotpink-border{
+	border-color: #FF1493;
+    border-width: 6px;
+    border-style: solid;
+    padding: 20px
+}
+
+.hotpink-dotted-border{
+	border-color: #FF1493;
+    border-width: 4px;
+    border-style: dotted;
+    padding: 20px
+}
+
+.black-dashed-border{
+	border-color: black;
+    border-width: 3px;
+    border-style: dashed;
+    padding: 5px
+}
+
+
