@@ -92,6 +92,13 @@
 	margin: 8px 5px 8px 5px;
 }
 
+.main-text-small{
+	padding: 1px;
+	font-size: 14px;
+	text-align: center;
+	margin: 5px 2px 5px 2px;
+}
+
 .main-text-left{
 	padding: 2px;
 	font-size: 18px;
