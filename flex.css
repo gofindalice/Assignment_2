@@ -6,6 +6,16 @@
 }
 
 
+.flex-orange{
+	display: flex;
+	width: 100%;
+	margin: 40px 0px 0px 0px;
+}
+
+.flex-orange b {
+	display: block;
+}
+
 .flex-vertical{
 	display: flex;
 	flex-direction: column;
@@ -85,6 +95,19 @@
 	font-family: century-gothic, sans-serif;
 }
 
+.big-text{
+	font-family: impact, sans-serif;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+
+.three-columns{
+	display: flex;
+	flex-direction: column;
+
+}
+
 .main-text-center{
 	padding: 2px;
 	font-size: 15px;
@@ -92,8 +115,11 @@
 	margin: 8px 5px 8px 5px;
 }
 
+.roundedge{
+	border-radius: 8px
+}
+
 .main-text-small{
-	padding: 1px;
 	font-size: 14px;
 	text-align: center;
 	margin: 5px 2px 5px 2px;
@@ -143,7 +169,7 @@
 
 .image-container-ghost{
 	padding: 10px;
-	height: 330px;
+	height: 300px;
 }
 
 .image-container-gif{
